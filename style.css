@@ -1,0 +1,57 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: #ff0040 ;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+}
+
+a{
+    color : #ffffff
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10%;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: #1bf2e7;
+    font-size: 20pt;
+}
+
+body{
+    background-color: black ;
+}
